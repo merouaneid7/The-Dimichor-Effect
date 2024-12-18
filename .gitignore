@@ -1,0 +1,21 @@
+# Exclude XAMPP configuration files
+*.ini
+*.log
+
+# Exclude WordPress core files
+wp-admin/
+wp-includes/
+
+# Exclude uploads
+wp-content/uploads/
+
+# Exclude database files
+*.sql
+
+# Exclude operating system files
+.DS_Store
+Thumbs.db
+
+# Exclude other unnecessary files
+node_modules/
+.env
